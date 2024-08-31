@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    width: 100%;
+}
+#page1{
+    min-height: 100vh;
+    width: 100%;
+    background-color:#c2efd4 ;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 3vw;
+    color: #224F34;
+}
+#nav h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-size: 2.2vw;
+    font-weight: 700;
+    font-style: italic;
+}
+#nav-c{
+    display: flex;
+    gap: 3vw;
+    margin-left: 5vw;
+}
+#nav-c h4{
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+#nav-r{
+    padding: 0vw 2vw;
+    display: flex;
+    align-items: center;
+}
+#nav-r i{
+    font-size: 1.5vw;
+    margin-right: 20px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+#nav-r button{
+    padding: 0.2vw 2vw;
+    background-color: transparent;
+    border: 1px solid #224F34;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#hero{
+    width: 100%;
+    padding: 5vw 6vw;
+    display: flex;
+    color: #224F34;
+
+}
+#hero-left{
+    width: 50%;
+    padding: 5vw 5vw;
+    height: 100%;
+}
+#hero-left h1{
+    font-size: 4vw;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    line-height: 4vw;
+}
+#hero-left p{
+    opacity: 0.8;
+    font-size: 16px;
+    margin-top: 1vw;
+    margin-bottom: 2px;
+    
+
+}
+#hero-left button{
+    margin-top: 2vw;
+    padding: 0.5vw 2vw;
+    background-color: rgba(41, 83, 41, 0.963);
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 5vw;
+
+
+}
+#hero-right{
+    width: 40%;
+    margin-left: 5vw;
+}
+#hero-right #box{
+    width: 80%;
+    height: 70vh;
+    background-color:#6BC785;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 25px;
+}
+#hero-right #box img{
+    object-fit: cover;
+    width: 90%;
+    height: 100%;
+    object-position: 80% 30%;
+}
+#page2{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    position: relative;
+}
+#page2 h3{
+    text-align: center;
+    padding: 1vw 2vw;
+    font-size: 2.5vw;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+}
+#page2 p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+#elem{
+    padding: 5vw 5vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.one{
+    height: 40%;
+    width: 25%;
+}
+.one #con img{
+    object-fit: cover;
+    height: 400px;
+}
+#page2 button{
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0.5vw 2vw;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+#page2 button i{
+    margin-left: 11px;
+    font-weight: 400;
+}
+#page3{
+    width: 100%;
+    min-height: 100vh;
+}
+#page3 h4{
+    margin-top: 2vw;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 650;
+}
+#menus{
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+#menus a{
+    text-decoration: none;
+    color:#454545;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8vw;
+    cursor: pointer;
+}
+#products{
+    padding: 3vw 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.pro{
+    width: 20%;
+    height: 250px;
+}
+.pro #image img{
+    object-fit: cover;
+    height: 280px;
+    width: 80%;
+    object-position: 70% 30%;
+}
+.pro h6{
+    font-weight: 500;
+}
+.pro span{
+    font-size: 0.8vw;
+    letter-spacing: 2px;
+}
+
+#page4{
+    margin-top: 5vw;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page4 #box{
+  width: 1000px;
+  height: 400px;
+  background-color: #C2EFD4;
+  display: flex;
+}
+#box #left{
+    width: 45%;
+    height: 100%;
+}
+#left img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-left: 5vw;
+}
+#box #right{
+    position: relative;
+    width: 55%;
+    height: 100%;
+    padding: 5vw 5vw;
+    color: #224F34;
+}
+#right h2{
+    font-size: 3vw;
+}
+#right p{
+    font-size: 0.8vw;
+}
+#right #box{
+    margin-top: 1vw;
+    display: flex;
+    width: 80%;
+    height: 60%;
+    gap: 5vw;
+    
+}
+#box .one{
+    background-color: #fff;
+    padding: 0.8vw 1.5vw;
+    text-align: center;
+}
+#right button{
+    padding: 1vw 3vw;
+    text-transform: uppercase;
+    background-color: #224F34;
+    color: #fff;
+    margin-bottom: 5vw;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+}
+#page5{
+    width: 100%;
+    min-height: 100vh;
+}
+#page5 h3{
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size:1.5vw;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+#page5>p{
+    text-align: center;
+    font-size: 0.9vw;
+}
+#page5 #design{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 3vw;
+    margin-left: 10vw;
+}
+#design .two #con{
+    width: 80%;
+    height: 80%;
+}
+#design .two #con img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#design p{
+    font-size: 0.7vw;
+    width: 60%;
+    margin-top: 1vw;
+}
+#design h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8vw;
+    margin-top: 1px;
+}
+#page6{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+#page6 #top{
+    width: 100%;
+    height: 50vh;
+    padding-top: 2vw;
+}
+#top h2{
+    text-align: center;
+    margin-top: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+}
+#top #corner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    padding: 5vw 5vw;
+}
+#corner .box{
+    width: 50%;
+    height: 32vh;
+    padding: 2vw 5vw;
+    box-shadow: 0px 0px 1px 2px #dadada;
+}
+.box h5{
+    font-size: 2vw;
+}
+.box h6{
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.box p{
+    font-size: 0.7vw;
+}
+#gree{
+    background-color: #6bc785c1;
+}
+#top #btn{
+    position: absolute;
+    top: 10;
+    left: 45%;
+}
+#btn button{
+    padding: 0.5vw 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+ #c{
+    background-color: #C2EFD4;
+}
+#page6 #footer{
+    background-color: #224F34;
+    width: 100%;
+    height: 40vh;
+    margin-top: 15vw;
+}
+#elems{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2vw 2vw;
+}
+#elems ul li{
+    list-style: none;
+    color: #fff;
+    opacity: 0.8;
+    margin: 0.8vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1vw;
+    font-size: 0.8vw;
+}
+#elems h6{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 1.5vw;
+    margin-top: 22px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+#elems input{
+    padding: 0vw 2vw;
+    background-color:#224F34;
+    margin-top: 2vw;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 1.3vw;
+}
+#elems button{
+    padding: 0vw 2vw;
+    font-size: 1.3vw;
+}
+#elems h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-size: 2.5vw;
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
+}
+#elems i{
+    margin: 1vw;
+    font-size: 1.5vw;
+    font-weight: 100;
+    color:#fff;
+    line-height: 3vw;
+}
